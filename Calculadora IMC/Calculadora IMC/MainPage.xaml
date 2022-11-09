@@ -8,10 +8,10 @@
         VerticalOptions="Center">
         <!-- Place new controls here -->
         <Label Text="Calcula tu IMC" />
-        <Entry Placeholder="Altura"></Entry>
-        <Entry Placeholder="Peso"></Entry>
-        <Entry Placeholder="Tu IMC"></Entry>
-        <Button Text="Calcular"></Button>
+        <Entry Placeholder="Altura" x:Name="Altura" Keyboard="Numeric"></Entry>
+        <Entry Placeholder="Peso" x:Name="Peso" Keyboard="Numeric"> </Entry>
+        <Entry Placeholder="Tu IMC" x:Name="IMC"></Entry>
+        <Button Text="Calcular" Clicked="Button_OnClicked"></Button>
     </StackLayout>
 
 </ContentPage>
