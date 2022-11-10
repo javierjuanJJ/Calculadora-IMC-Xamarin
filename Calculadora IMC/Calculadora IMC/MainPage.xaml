@@ -10,7 +10,7 @@
         <Label Text="Calcula tu IMC" />
         <Entry Placeholder="Altura" x:Name="Altura" Keyboard="Numeric"></Entry>
         <Entry Placeholder="Peso" x:Name="Peso" Keyboard="Numeric"> </Entry>
-        <Entry Placeholder="Tu IMC" x:Name="IMC"></Entry>
+        <Entry Placeholder="Tu IMC" x:Name="IMC" IsEnabled="False"></Entry>
         <Button Text="Calcular" Clicked="Button_OnClicked"></Button>
     </StackLayout>
 
