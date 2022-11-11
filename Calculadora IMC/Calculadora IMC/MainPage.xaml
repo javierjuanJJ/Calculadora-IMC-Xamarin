@@ -7,11 +7,14 @@
     <StackLayout HorizontalOptions="Center"
         VerticalOptions="Center">
         <!-- Place new controls here -->
-        <Label Text="Calcula tu IMC" />
+        <Label Text="Calcula tu IMC" FontAttributes="Bold"
+                                                    FontSize="50"
+                                                    HorizontalTextAlignment="Center"
+                                                    TextColor="#565168" />
         <Entry Placeholder="Altura" x:Name="Altura" Keyboard="Numeric"></Entry>
         <Entry Placeholder="Peso" x:Name="Peso" Keyboard="Numeric"> </Entry>
         <Entry Placeholder="Tu IMC" x:Name="IMC" IsEnabled="False"></Entry>
-        <Button Text="Calcular" Clicked="Button_OnClicked"></Button>
+        <Button Text="Calcular" Clicked="Button_OnClicked" BackgroundColor="DarkMagenta"></Button>
     </StackLayout>
 
 </ContentPage>
